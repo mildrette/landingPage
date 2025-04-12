@@ -1,21 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Learning PHP</title>
-</head>
+<?php
+$color = "red";
 
-<body>
-  <h1>Welcome to PHP</h1>
-  <p>
-    <?php 
-      echo "I am learning PHP for my first time on " . date("l, F jS") . ", and the goal is to build a website in PHP.";  
-    ?>
-  </p>
+echo "my book is" . $color . "<br>";
+echo "my cloths are " . $color . "<br>";
 
-  <p>
-    <?php
-    echo "Learning PhP for the first time on the" . date("l, F jS") . ", so what do your think right now??.";
-    ?>
-      </p>
-</body>
-</html>
+$name = "mildred";
+$age = "30";
+ echo "$name, is $age years old" . "<br>";
+
+
+//  using the var_dump to know the data type and it's value
+ $words = 30;
+ var_dump($words);
+?>
