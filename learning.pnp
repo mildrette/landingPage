@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>  <title> learning php</title>
+ </head>
+
+<body>
+<h1>
+welcome to php</h1>
+<p> <?php 
+ecoh "i am learning php for my first time and the goal is to build a website in php"</p>
+</body>
+</html>
