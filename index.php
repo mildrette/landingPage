@@ -1,3 +1,7 @@
-<?php
-$name = "mildred";
-echo "hello there  $name, This is your first php code, congratulations";
+<!DOCTYPE html>
+<html>
+<head><title>deku</title></head>
+<body>
+  <h1><?php echo "Hello from PHP!"; ?></h1>
+</body>
+</html>
