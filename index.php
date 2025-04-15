@@ -12,4 +12,14 @@ $age = "30";
 //  using the var_dump to know the data type and it's value
  $words = 30;
  var_dump($words);
+
+
+//  variables have 3 faces, the global scoope, the local scoope and static scoope
+
+$value = 10000000;
+
+function me( ) {
+    echo "<p> I am weight more than: $value </p>";
+}
+me();
 ?>
